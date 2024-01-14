@@ -6,7 +6,7 @@ This is my Neovim/NvChad config for:
 
 1. Open terminal
 2. Run following commands:
-   - Install curl, unzip, xclip, pip: `sudo apt-get install curl unzip xclip python3-pip`
+   - Install curl, unzip, xclip, pip, python3-venv: `sudo apt-get install curl unzip xclip python3-pip python3-venv`
    - Install pynvim: `python3 -m pip install pynvim`
    - Download latest neovim: `curl -L -o ~/Downloads/nvim-linux64.tar.gz https://github.com/neovim/neovim/releases/latest/download/nvim-linux64.tar.gz`
    - Install neovim: `tar -xzvf ~/Downloads/nvim-linux64.tar.gz`
