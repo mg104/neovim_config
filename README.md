@@ -25,7 +25,7 @@ This is my Neovim/NvChad config for:
    - Enter `:q" to exit nvim
 7. Customize nvchad for C++ and Python:
    - Delete the custom config file of nvchad: `rm -rf ~/.config/nvim/lua/custom`
-   - Download *my* C++ and Python configs: `cd && mkdir custom-c-python-config && git clone https://github.com/mg104/neovim_config.git ~/custom-c-python-config --depth 1"
+   - Download *my* C++ and Python configs: `cd && mkdir custom-c-python-config && git clone https://github.com/mg104/neovim_config.git ~/custom-c-python-config --depth 1`
    - Copy *only* the custom config file from downloaded config, into nvchad: `cp -r ~/custom-c-python-config/lua/custom ~/.config/nvim/lua`
    - Launch nvchad: `nvim`
    - Install C++ and Python plugins listed in my config file: `:MasonInstallAll`
